@@ -9,6 +9,36 @@ export default function Research() {
     );
 
   const uncategorised = researchPapers.filter((p) => !p.category);
+      const references = [
+    {
+      title: "Research Paper 1",
+      authors: "Authors of the paper",
+      year: "2022",
+      description: "Description of the research.",
+      file: "/research/papers/paper-1.pdf",
+    },
+    {
+      title: "Research Paper 2",
+      authors: "Authors of the paper",
+      year: "2022",
+      description: "Description of the research.",
+      file: "/research/papers/paper-2.pdf",
+    },
+    {
+      title: "Research Paper 3",
+      authors: "Authors of the paper",
+      year: "2018",
+      description: "Description of the research.",
+      file: "/research/papers/paper-3.pdf",
+    },
+    {
+      title: "Research Paper 4",
+      authors: "Authors of the paper",
+      year: "2019",
+      description: "Description of the research.",
+      file: "/research/papers/paper-4.pdf",
+    },
+  ];
 
   return (
     <div className="page" style={{ paddingTop: "var(--nav-height)" }}>
