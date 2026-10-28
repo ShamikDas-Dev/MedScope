@@ -1,0 +1,83 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.example.*
+.env.example
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Node / frontend
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# Machine learning artifacts and local data
+ml/checkpoints/*
+!ml/checkpoints/.gitkeep
+ml/evaluation/*
+!ml/evaluation/.gitkeep
+ml/data/*
+!ml/data/README.md
+!ml/data/.gitkeep
+ml/runs/
+ml/logs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# Generated datasets, split manifests, and experiment outputs
+*.csv
+*.parquet
+*.jsonl
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json

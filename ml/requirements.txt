@@ -1,0 +1,11 @@
+# Install a CUDA-enabled PyTorch build appropriate for your Windows/NVIDIA setup
+# from the official PyTorch installer first.
+torch
+torchvision
+
+pandas
+scikit-learn
+pillow
+numpy
+tqdm
+matplotlib

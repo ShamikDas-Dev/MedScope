@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40">
+  <circle cx="18" cy="20" r="11" fill="none" stroke="#064E3B" stroke-width="2"/>
+  <circle cx="18" cy="20" r="4" fill="#064E3B"/>
+  <text x="38" y="27" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700" fill="#064E3B" letter-spacing="1">MEDSCOPE</text>
+</svg>
